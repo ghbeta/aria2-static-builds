@@ -29,6 +29,7 @@ CXX="$CXX_COMPILER" \
     --without-libgmp \
     --with-libssh2 \
     --with-sqlite3 \
-    --with-ca-bundle='/etc/ssl/certs/ca-certificates.crt' \
+    --disable-bittorrent \
+    --disable-metalink \
     ARIA2_STATIC=yes \
     --enable-shared=no
